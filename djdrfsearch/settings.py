@@ -60,6 +60,11 @@ ELASTICSEARCH_DSL = {
     },
 }
 
+ELASTICSEARCH_INDEX_NAMES = {
+    'search_index.documents.book':'books',
+    'search_index.documents.publisher':'publishers',
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
